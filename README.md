@@ -1,8 +1,8 @@
-### Salesforce: components generation after import
+## Salesforce: components generation after import
 
 What if in the scope of testing a Salesforce application we need to generate multiple components like js buttons, list views, objects, lightning components, etc.? Doing this manually can be quite cumbersome and time consuming. This example illustrate a workaround to handle such scenario using MetadataAPI, spcifically the [Metadata API Apex Wrapper](https://github.com/financialforcedev/apex-mdapi)
 
-## Getting Started
+### Getting Started
 
 What we need?
 The solution includes an apex trigger to trigger the batch class with the logic to manage the data (create the components, list views in the example), helper classes and the Metadata wrapper classes. 
